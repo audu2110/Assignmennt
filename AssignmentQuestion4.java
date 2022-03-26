@@ -5,8 +5,8 @@ import java.io.IOException;
 public class AssignmentQuestion4 {
     public static void main(String[] args) {
         try {
-                FileReader fr = new FileReader("gfgInput.txt");
-                FileWriter fw = new FileWriter("gfgOutput.txt");
+                FileReader fr = new FileReader("Input.txt");
+                FileWriter fw = new FileWriter("Output.txt");
                 String str = "";
                 int i;
                 while ((i = fr.read()) != -1) {
